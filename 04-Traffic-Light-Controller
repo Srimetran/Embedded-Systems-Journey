@@ -1,0 +1,63 @@
+# 🚦 Project 4 – Traffic Light Controller
+
+## Objective
+
+The objective of this project was to design a basic traffic light controller using an Arduino Uno, three LEDs, and timed state transitions.
+
+This project builds on previous GPIO projects by introducing multiple outputs, sequencing, and function-based code organization.
+
+---
+
+## Background
+
+A traffic light is a simple example of a finite state machine. The system cycles through a fixed sequence of states:
+
+RED → GREEN → YELLOW → RED
+
+Each state defines the complete output condition of the system. Only one LED should be active at a time.
+
+---
+
+## Concepts Learned
+
+- GPIO Output
+- Multiple LED Control
+- State-Based Thinking
+- Function Creation
+- Code Organization
+- `pinMode()`
+- `digitalWrite()`
+- `delay()`
+- Timing Sequences
+- Embedded System States
+
+---
+
+## Hardware Used
+
+- Arduino Uno R3
+- Breadboard
+- Red LED
+- Yellow LED
+- Green LED
+- 3 × 220Ω Resistors
+- Jumper Wires
+
+---
+
+## Pin Assignments
+
+| LED | Arduino Pin |
+|-----|-------------|
+| Red | Pin 8 |
+| Yellow | Pin 9 |
+| Green | Pin 10 |
+
+---
+
+## Circuit Overview
+
+```text
+Pin 8  → 220Ω Resistor → Red LED → GND
+Pin 9  → 220Ω Resistor → Yellow LED → GND
+Pin 10 → 220Ω Resistor → Green LED → GND
